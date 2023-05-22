@@ -1,0 +1,33 @@
+.userInfoBox {
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-size:larger;
+}
+
+.userInfoBox > span {
+    margin: 10px;
+    width: 20rem;
+    height: 5rem;
+    box-shadow: 0 0 8px 4px lightblue;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 4px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-btn {
+    margin: 10px;
+    width: 6.8rem;
+    height: 3rem;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    background-color: rgb(73, 160, 236);
+    cursor: pointer;
+    padding: 5px 20px;
+}

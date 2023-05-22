@@ -1,0 +1,13 @@
+.alert {
+    height: 10px;
+    width: 35vw;
+    margin-left: 32vw;
+    position: fixed;
+    z-index: 5;
+}
+
+.alert-msg {
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+}

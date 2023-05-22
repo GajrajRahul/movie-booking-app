@@ -1,0 +1,26 @@
+.movieStyleCard {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageCard {
+    width: 90%;
+    margin: 5px;
+}
+
+.movieStyleCard > h4 {
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+}
+
+.rating > p {
+    margin: 0;
+}

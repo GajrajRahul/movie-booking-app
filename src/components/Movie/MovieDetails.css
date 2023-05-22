@@ -1,0 +1,41 @@
+.movie-details {
+    cursor: default;
+}
+
+.movie-styles {
+    display: flex;
+    /* margin: 5px; */
+}
+
+span {
+    margin: 10px 5px;
+}
+
+.buy-wishlist > button {
+    margin: 20px 20px 20px 0;
+    cursor: pointer;
+}
+
+.movie-right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.movie-left-container > img {
+    width: 20vw;
+    height: 25vw;
+    margin: 10px;
+}
+
+.close-details {
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: flex-end; */
+    margin-right: 10px;
+}
+
+.close-details > span {
+    cursor: pointer;
+}

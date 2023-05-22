@@ -1,0 +1,27 @@
+.wrapper-wishlist {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.wraper-card {
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+    height: 66vh;
+    box-shadow: 0 0 3px 3px rgb(125, 184, 246);
+}
+
+.card-left-container > img {
+    width: 200px;
+    margin: 5px;
+    height: 55vh;
+}
+
+.wrap-wishlist-data {
+    margin: 5px;
+}
+
+.book-ticket-btn {
+    margin-left: 10vw;
+    padding: 3px;
+}
